@@ -1,7 +1,7 @@
 # Logistic Regression
 
 Logistic regression models the probability that dependent variable $Y$ bleongs to a particular category.The values of the probability ranges between $0$ and $1$. Based on the set threshold model makes the classification. Conventinally the threshold is accepted as $0.5$. Logistic function is used in logistic regression 
-$$ P(X) = \frac{\exp(\beta_0 + \beta_1*X}{1+ \exp(\beta_0 + \beta_1*X}.$$ and this yields $$ log(\frac{P(X)}{1-P(X)} = \beta_0 + \beta_1*X$$
+$$ P(X) = \frac{\exp(\beta_0 + \beta_1X)}{1+ \exp(\beta_0 + \beta_1X}.$$ and this yields $$ log(\frac{P(X)}{1-P(X)}) = \beta_0 + \beta_1*X$$
 
 The left-hand side is called the log-odds or logit. So to speak the logistic regression model has a logit that is linear in $X$.
 
