@@ -31,7 +31,7 @@ Accuracy on Test Set: 0.7783, after CountVectorizer() method to the text data. I
 - Latent Dirichlet Allocation technique is used to group text data based on topic. With almost 82% certainty our LDA approach is classified the unseen text in the first topic. The problem with grouping topics is that the movie reviews do not have distinct topics so the clusters may not separated well which may cause mis-classifications.
 
 - Laslty, Word2Vec approach is applied to take meanings/sentiment of words into account in the classification process. Details about Word2Vec and LDA methods included in the notebook. Here is the results of different classifiers after Word2Vec applied.
-![Word2Vec]('Word2Vec.png')
+![Word2Vec.png]('Word2Vec.png')
 
 ---- 
 
