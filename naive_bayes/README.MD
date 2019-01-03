@@ -23,15 +23,15 @@ Accuracy on Test Set: 0.7783, after CountVectorizer() method to the text data. I
 
 - Then tuning parameters of the previous model with GridSearch algorithm yield accuracy score of Accuracy on training data: 0.798244 and Accuracy on test data:     0.712358. That helped with the overfitting problem.
 
-- This model with optimal paramters suprisingly bad job at classifying unseen negative review as positive review with $95 % $ probability.
+- This model with optimal paramters suprisingly bad job at classifying unseen negative review as positive review with $95 \% $ probability.
 
-- We tested performance a couple of classification models such as the king of forest RandomforestClassifier, SVM, MultinominalNB, LogisticRegression and DecisionTreeClassifier with default parameter setting. In this plot you will see classification results based on weighted text data with TF-IDF tool. The winner of this part is MultinomialNB with higher true positive rate and $80%$ area under the curve metrics.
+- We tested performance a couple of classification models such as the king of forest RandomforestClassifier, SVM, MultinominalNB, LogisticRegression and DecisionTreeClassifier with default parameter setting. In this plot you will see classification results based on weighted text data with TF-IDF tool. The winner of this part is MultinomialNB with higher true positive rate and $80\%$ area under the curve metrics.
 ![Test1.png](Test1.png)
 
-- Latent Dirichlet Allocation technique is used to group text data based on topic. With almost 82% certainty our LDA approach is classified the unseen text in the first topic. The problem with grouping topics is that the movie reviews do not have distinct topics so the clusters may not separated well which may cause mis-classifications.
+- Latent Dirichlet Allocation technique is used to group text data based on topic. With almost $82\%$ certainty our LDA approach is classified the unseen text in the first topic. The problem with grouping topics is that the movie reviews do not have distinct topics so the clusters may not separated well which may cause mis-classifications.
 
 - Laslty, Word2Vec approach is applied to take meanings/sentiment of words into account in the classification process. Details about Word2Vec and LDA methods included in the notebook. Here is the results of different classifiers after Word2Vec applied.
-![Word2Vec.png]('Word2Vec.png')
+![Word2Vec.png](Word2Vec.png)
 
 ---- 
 
